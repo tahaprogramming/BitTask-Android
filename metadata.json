@@ -1,0 +1,6 @@
+{
+  "name": "BitTask",
+  "description": "BitTask is a sleek, offline-first task manager featuring Solar and Gregorian calendars, complete bilingual English and Persian localization, fine-grained notification alerts, and a step-by-step help guide.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
