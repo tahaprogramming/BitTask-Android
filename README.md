@@ -80,11 +80,4 @@ This project is licensed under the MIT License — see the LICENSE file for deta
 👨‍💻 Author
 Taha • tahaprogramming
 
-<img src="https://img.shields.io/badge/GitHub-tahaprogramming-181717?style=for-the-badge&#x26;logo=github" alt="GitHub">
-
-<img src="https://img.shields.io/badge/Telegram-Contact-229ED9?style=for-the-badge&#x26;logo=telegram" alt="Telegram">
-
-
-Made with ❤️ for productivity and open-source community
-
-```
+<img src="https://img.shields.io/badge/GitHub-tahaprogramming-181717?style=for-the-badge&#x26;logo=github" alt="GitHub" >
