@@ -1,28 +1,88 @@
 # 🌌 BitTask
 
-A professional, offline-first task management and planning application engineered for the Android platform. BitTask is designed with privacy and performance at its core, combining Kotlin, Jetpack Compose, and Material Design 3 to deliver a native and efficient user experience.
+**A Modern, Offline-First Task Manager for Android**
 
-<p align="left">
-  <img src="https://img.shields.io/badge/Platform-Android-3DDC84?style=flat-square&logo=android&logoColor=white" alt="Android" />
-  <img src="https://img.shields.io/badge/Language-Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" alt="Kotlin" />
-  <img src="https://img.shields.io/badge/UI-Jetpack%20Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white" alt="Jetpack Compose" />
-  <img src="https://img.shields.io/badge/Database-Room%20DB-00e5ff?style=flat-square" alt="Room DB" />
-  <img src="https://img.shields.io/badge/UI--System-Material%203-7F52FF?style=flat-square" alt="Material 3" />
-</p>
+Built with privacy, performance, and delightful user experience in mind. BitTask combines the power of **Jetpack Compose**, **Room**, and **Material Design 3** with full support for both **Jalali (Persian)** and **Gregorian** calendars.
 
 ---
 
-## 🔑 Key Architectural Features
+<div align="center">
 
-*   **Offline-First & Local-First Cache:** Fully operational without an active internet connection. All read and write operations are committed locally, minimizing network overhead and respecting user privacy.
-*   **Dual-Calendar Implementation:** Integrated support for both **Jalali (Hijri-Shamsi)** and **Gregorian** calendar systems, enabling fluent localized task scheduling.
-*   **Declarative Reactive UI:** Built entirely using **Jetpack Compose**, implementing dynamic states, fluid animations, and standard Material Design 3 adaptive components.
-*   **Structured Local Persistence:** Backed by the **Room Database** abstraction layer, providing structured schema migrations and high-performance querying.
-*   **Hierarchical Task Modeling:** Complete support for complex checklists and sub-tasks with relational relational mapping in the database level.
-*   **Reliable Reminder Engine:** Smart reminders utilizing native Android alarm mechanisms to trigger notification actions precisely on time.
+![Kotlin](https://img.shields.io/badge/Kotlin-100%25-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
+![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white)
+![Material Design 3](https://img.shields.io/badge/Material%20Design%203-6200EE?style=for-the-badge)
+![Room](https://img.shields.io/badge/Room_DB-34A853?style=for-the-badge)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
+[![Platform](https://img.shields.io/badge/Platform-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://www.android.com)
+
+</div>
 
 ---
 
+## ✨ Key Features
+
+- **Fully Offline-First** — Works perfectly without internet. All data stays on your device.
+- **Dual Calendar System** — Seamless support for **Jalali (Shamsi)** and **Gregorian** calendars with automatic conversion.
+- **Hierarchical Task Management** — Rich support for subtasks, checklists, and nested tasks.
+- **Smart Reminders** — Reliable notifications using native Android AlarmManager.
+- **Beautiful & Reactive UI** — Built 100% with Jetpack Compose and Material Design 3.
+- **High-Performance Local Database** — Powered by Room with structured schema and efficient queries.
+- **Privacy Focused** — No unnecessary permissions or cloud dependencies.
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer              | Technology                          |
+|--------------------|-------------------------------------|
+| Language           | Kotlin                              |
+| UI                 | Jetpack Compose + Material 3        |
+| Architecture       | MVVM + Repository Pattern           |
+| Database           | Room + DataStore                    |
+| Concurrency        | Kotlin Coroutines + Flow            |
+| Build Tool         | Gradle (KTS)                        |
+
+---
+
+## 🚀 Quick Start
+
+### Prerequisites
+- Android Studio (Koala or newer)
+- JDK 17 or higher
+
+### Installation
+
+```bash
+git clone https://github.com/tahaprogramming/BitTask-Android.git
+cd BitTask-Android
+Open the project in Android Studio, sync Gradle, and run on an emulator or physical device.
+
+🗺️ Roadmap
+
+ Core task management with subtasks
+ Dual calendar (Jalali + Gregorian)
+ Offline persistence with Room
+ Native reminders
+ Home screen widgets
+ Data export (CSV / JSON)
+ Optional cloud sync (user choice)
+ Comprehensive tests
+
+
+🤝 Contributing
+Contributions, issues, and feature requests are welcome!
+Feel free to check the issues page.
 
 📄 License
-This repository is distributed under the open-source license. Feel free to explore, study, and expand the code.
+This project is licensed under the MIT License — see the LICENSE file for details.
+
+👨‍💻 Author
+Taha • tahaprogramming
+<img src="https://img.shields.io/badge/GitHub-tahaprogramming-181717?style=for-the-badge&#x26;logo=github" alt="GitHub">
+<img src="https://img.shields.io/badge/Telegram-Contact-229ED9?style=for-the-badge&#x26;logo=telegram" alt="Telegram">
+
+
+Made with ❤️ for productivity and open-source community
+
+```
