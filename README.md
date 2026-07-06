@@ -57,7 +57,7 @@ Built with privacy, performance, and delightful user experience in mind. BitTask
 git clone https://github.com/tahaprogramming/BitTask-Android.git
 cd BitTask-Android
 Open the project in Android Studio, sync Gradle, and run on an emulator or physical device.
-
+```
 🗺️ Roadmap
 
  Core task management with subtasks
